@@ -1,0 +1,31 @@
+/* regole bg */
+
+.ms_blue-bg {
+    background-color: #2c3e50; 
+}
+
+.ms_green-bg {
+    background-color: #1abc9c;
+    /* debug */
+    min-height: 500px;
+}
+
+.ms_light-blue-bg {
+    background-color: #3a546d;
+    /* debug */
+    min-height: 300px;
+}
+
+/* regole nav */
+
+header nav {
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1020;
+}
+
+header nav ul {
+    list-style: none;
+    gap: 2rem;
+}
