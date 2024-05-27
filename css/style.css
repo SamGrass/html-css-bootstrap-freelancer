@@ -95,6 +95,28 @@ header nav ul {
 .ms_image-container:hover .ms_image-selected {
     display: block;
 }
+/* regole contact me */
+.ms_form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    line-height: 1.5;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+
+.ms_btn-green {
+    background-color: #1abc9c;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #fff;
+    border: 1px solid #1abc9c;
+    color: #1abc9c;   
+}
 
 /* regole footer */
 .ms_text-green {
@@ -109,6 +131,7 @@ header nav ul {
     border-radius: 50%;
     border: 1px solid #fff;
 }
+
 footer .fa-brands {
     transform: translate(-25%, -50%);
 }
