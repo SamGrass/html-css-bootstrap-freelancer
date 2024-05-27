@@ -15,7 +15,7 @@
     background-color: #3a546d;
 }
 
-/* regole stellina */
+/* regole star */
 .star-line {
     width: 100%;
     height: 3px;
@@ -43,15 +43,39 @@ header nav {
     height: 60px;
 }
 
-header nav ul {
+header nav ul.d-md-flex {
     list-style: none;
     gap: 2rem;
+}
+
+nav .fa-bars {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.ms_navbar-nav {
+    background-color: #ebffff;
+    border-radius: 1em;
+}
+
+nav .ms_text-green:hover {
+    color: #1abc9c;
+}
+
+.ms_text-white {
+    color: #fff;
+    transition: all 0.2s ease;
+}
+
+.ms_text-white:hover {
+    color: #1abc9c;
 }
 
 /* regole jumbotron */
 #jumbotron {
     padding-top: 80px;
 }
+
 #ms_avatar-container {
     width: 200px;
     margin: 0 auto;
@@ -95,6 +119,17 @@ header nav ul {
 .ms_image-container:hover .ms_image-selected {
     display: block;
 }
+
+/* regole about */
+.ms_btn-white {
+    border: 1px solid #fff;
+    color: #fff; 
+}
+
+.fa-download {
+    margin-right: 1rem;
+}
+
 /* regole contact me */
 .ms_form-control {
     display: block;
@@ -119,7 +154,7 @@ header nav ul {
 }
 
 /* regole footer */
-.ms_text-green {
+footer .ms_text-green {
     color: #1abc9c;
 }
 
