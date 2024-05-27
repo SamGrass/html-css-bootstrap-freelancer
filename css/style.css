@@ -65,6 +65,41 @@ header nav ul {
 #ms_avatar-image {
     max-width: 100%;
 }
+
+/* regole portfolio */
+.ms_image-container {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.ms_card {
+    border-radius: 2em;
+}
+
+.ms_image-selected {
+    display: none;
+    position: absolute;
+    border-radius: 2em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1abc9c5b;
+}
+
+.fa-plus {
+    position: absolute;
+    color: #fff;
+    font-size: 3rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ms_image-container:hover .ms_image-selected {
+    display: block;
+}
 /* debug */
 
 .box {
