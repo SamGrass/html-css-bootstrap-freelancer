@@ -1,7 +1,6 @@
 * {
     font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
 }
-
 /* regole bg */
 
 .ms_blue-bg {
@@ -10,14 +9,10 @@
 
 .ms_green-bg {
     background-color: #1abc9c;
-    /* debug */
-    min-height: 500px;
 }
 
 .ms_light-blue-bg {
     background-color: #3a546d;
-    /* debug */
-    min-height: 300px;
 }
 
 /* regole stellina */
@@ -100,10 +95,20 @@ header nav ul {
 .ms_image-container:hover .ms_image-selected {
     display: block;
 }
-/* debug */
 
-.box {
-    background-color: red;
-    height: 80px;
-    border: 1px solid black;
+/* regole footer */
+.ms_text-green {
+    color: #1abc9c;
+}
+
+.brand-container {
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1em;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+footer .fa-brands {
+    transform: translate(-25%, -50%);
 }
